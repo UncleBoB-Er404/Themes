@@ -1,0 +1,54 @@
+/**
+ * @name BetterD
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+:root {
+  --background: url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 33,33,33;
+  --accentcolor: 123,122,122;
+  --backdrop: rgb(111,193,15,1);
+  --textshadow: rgb(47,11,112,1);
+  --transparencyalpha: 0.66;
+  --messagetransparency: 1;
+  --guildchanneltransparency: 1;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.94;
+  --font: Open Sans;
+  --textbrightest: 0,255,231;
+  --textbrighter: 0,166,187;
+  --textbright: 137,255,0;
+  --textdark: 0,255,231;
+  --textdarker: 88,45,165;
+  --textdarkest: 249,186,0;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --HSL-server-icon-size: 45px;
+  --HSL-server-spacing: 20px;
+}
+
+/* Any custom CSS below here */
+
+
